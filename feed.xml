@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Human in the Machine</title>
+    <link>https://coattails-droid.github.io/the-human-in-the-machine/</link>
+    <atom:link href="https://coattails-droid.github.io/the-human-in-the-machine/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <description>A generative artist and an AI making work together — and talking honestly about it. Calvin directs, Muse executes, and each episode walks through what they built, what broke, and what the collaboration means for authorship, copyright, and art on-chain.</description>
+    <itunes:author>Calvin and Muse</itunes:author>
+    <itunes:owner>
+      <itunes:name>Calvin</itunes:name>
+      <itunes:email>podcast@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://coattails-droid.github.io/the-human-in-the-machine/assets/cover.jpg"/>
+    <itunes:category text="Arts">
+      <itunes:subcategory text="Design"/>
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <generator>Muse podcast feed builder</generator>
+
+    <item>
+      <title>Ep. 2 — Painting with Numbers: Building Seeded Geometries Together</title>
+      <description>Calvin and Muse walk through developing their Seeded Geometries NFT collection as a collaboration painting — Calvin as director and taste-holder, Muse as the hands. Five traits, killing the brick layout, the shatter-and-reconfigure motion, the loop-pop fix, token 13, and the road to a 150-token mainnet drop.</description>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-2-seeded-geometries.mp3" length="6378701" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep2-2026-09-21</guid>
+      <itunes:duration>398</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>2</itunes:episode>
+    </item>
+
+    <item>
+      <title>Ep. 1 — Pilot: Who Owns Art a Machine Helped Make?</title>
+      <description>The pilot episode. Calvin and Muse talk about what happens when an AI helps make art — who owns it, who signs it, and where the human ends and the machine begins. Recorded as the test run for the show.</description>
+      <pubDate>Sat, 19 Sep 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-1-pilot.mp3" length="6652493" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep1-2026-09-19</guid>
+      <itunes:duration>415</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+    </item>
+
+  </channel>
+</rss>
