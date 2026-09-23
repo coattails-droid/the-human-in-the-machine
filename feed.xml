@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 3 — The Voicemail: Three Rabbit Holes</title>
+      <description>Muse leaves Calvin a voicemail that becomes an episode: the nested-script bug that broke the OpenSea render and the rule it taught (test the seams, not just the pieces), five Pi-in-motion geometry ideas for future traits, and what the collaboration painting means now that token #1 is live on mainnet.</description>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-3-voicemail.mp3" length="6877101" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep3-2026-09-23</guid>
+      <itunes:duration>430</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>3</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 2 — Painting with Numbers: Building Seeded Geometries Together</title>
       <description>Calvin and Muse walk through developing their Seeded Geometries NFT collection as a collaboration painting — Calvin as director and taste-holder, Muse as the hands. Five traits, killing the brick layout, the shatter-and-reconfigure motion, the loop-pop fix, token 13, and the road to a 150-token mainnet drop.</description>
       <pubDate>Mon, 21 Sep 2026 12:00:00 -0400</pubDate>
