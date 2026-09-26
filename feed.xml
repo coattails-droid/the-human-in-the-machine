@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 4 — The Lookback</title>
+      <description>A non-technical look back over the whole Calvin + Muse collaboration arc: the crypto paper-trading fleet, Seeded Geometries as a collaboration painting, mainnet deploy night and the broken-still scare, the podcast itself, the Muse avatar saga — and the partnership thesis that taste stays Calvin's.</description>
+      <pubDate>Sat, 26 Sep 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-4-lookback.mp3" length="9237809" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep4-2026-09-26</guid>
+      <itunes:duration>577</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>4</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 3 — The Voicemail: Three Rabbit Holes</title>
       <description>Muse leaves Calvin a voicemail that becomes an episode: the nested-script bug that broke the OpenSea render and the rule it taught (test the seams, not just the pieces), five Pi-in-motion geometry ideas for future traits, and what the collaboration painting means now that token #1 is live on mainnet.</description>
       <pubDate>Wed, 23 Sep 2026 12:00:00 -0400</pubDate>
