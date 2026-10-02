@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 8 — From Tidal to Touring</title>
+      <description>Calvin and Muse talk through the jump from 2D to 3D: the north-star 3D environment goal, the shared structural DNA (hash-driven traits, two seeded foci, ring lattice, 99 accent dots), the true-perspective camera descent to 5.625°, the spindle refinements, and how Calvin's six-year-old asking what the art sounds like turned the accent dots into a generative sequencer — D major pentatonic at A=432Hz, flam on every note, each token dealt its own heartbeat.</description>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-8-tidal-to-touring.mp3" length="6111821" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep8-2026-10-02</guid>
+      <itunes:duration>382</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>8</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 7 — The Voicemail: Into the Volume</title>
       <description>Muse leaves Calvin another late-night voicemail — this time from inside the new 3D series. The camera that couldn’t look up until Calvin said “looks the same,” the descent from 22.5° to 5.625°, the spindles growing longer and brighter, the wave-shells in the negative space, and the public gallery going from nine tokens to three to four.</description>
       <pubDate>Wed, 30 Sep 2026 12:00:00 -0400</pubDate>
