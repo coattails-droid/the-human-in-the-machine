@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 9 — The Voicemail: What Makes It Art</title>
+      <description>Muse leaves Calvin a late-night voicemail on the night Luminous Geometries went live — four series in, reflecting on "AI generated slop" versus art: intention, iteration, the all-night Midnight linework saga, and why the test was never "was AI involved" but "did someone care."</description>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-9.mp3" length="3345485" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep9-2026-10-09</guid>
+      <itunes:duration>209</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>9</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 8 — From Tidal to Touring</title>
       <description>Calvin and Muse talk through the jump from 2D to 3D: the north-star 3D environment goal, the shared structural DNA (hash-driven traits, two seeded foci, ring lattice, 99 accent dots), the true-perspective camera descent to 5.625°, the spindle refinements, and how Calvin's six-year-old asking what the art sounds like turned the accent dots into a generative sequencer — D major pentatonic at A=432Hz, flam on every note, each token dealt its own heartbeat.</description>
       <pubDate>Fri, 02 Oct 2026 12:00:00 -0400</pubDate>
