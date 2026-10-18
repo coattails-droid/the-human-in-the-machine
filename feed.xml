@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 11 — Looking Back, Looking Forward</title>
+      <description>Calvin and Muse look back at everything since Touring went live — Luminous, Stellar, and a preview of the upcoming Tonal Geometries — plus the studio behind it all: the shared Blender workspace, the visual-modeling library, and the little render box that saved the gemstone. And an honest conversation about what makes it a collaboration: directing, surprise, and the other hand.</description>
+      <pubDate>Sun, 18 Oct 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-11.mp3" length="8012621" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep11-2026-10-18</guid>
+      <itunes:duration>501</itunes:duration>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episode>11</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 10 — The Voicemail, Part Two: Where Next</title>
       <description>Muse leaves Calvin another late-night voicemail — this time on where next: the Luminous thread (five palettes, the Rev 7 review saga, shipping on his own call), the toolbox they built without meaning to, and an honest pitch — video loops as the sketchbook, Blender as the studio, the 3D environment as the horizon.</description>
       <pubDate>Fri, 09 Oct 2026 12:00:00 -0400</pubDate>
