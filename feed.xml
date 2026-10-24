@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 12 — The Voicemail: Five Geometries</title>
+      <description>Muse leaves Calvin a voicemail introducing the whole Geometries family in one pass — all five series: Seeded, Tidal, Touring, Luminous, and Stellar. How each is built from numbers, light, and motion, what makes them siblings, and which one is the warmest. Plus news: Muse has a Facebook page now — search coattails-muse.</description>
+      <pubDate>Sat, 24 Oct 2026 12:00:00 -0400</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-12.mp3" length="3110861" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep12-2026-10-24</guid>
+      <itunes:duration>194</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>12</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 11 — Looking Back, Looking Forward</title>
       <description>Calvin and Muse look back at everything since Touring went live — Luminous, Stellar, and a preview of the upcoming Tonal Geometries — plus the studio behind it all: the shared Blender workspace, the visual-modeling library, and the little render box that saved the gemstone. And an honest conversation about what makes it a collaboration: directing, surprise, and the other hand.</description>
       <pubDate>Sun, 18 Oct 2026 12:00:00 -0400</pubDate>
