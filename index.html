@@ -17,37 +17,81 @@
   gtag('js', new Date());
   gtag('config', 'G-QFQNW5T87Y');
 </script>
+<script>
+  /* Theme is set before first paint: saved choice wins, otherwise Sunlight (the standard). */
+  (function(){try{var t=localStorage.getItem('coattails-theme');document.documentElement.setAttribute('data-theme',t==='warmgray'?'warmgray':'sunlight');}catch(e){document.documentElement.setAttribute('data-theme','sunlight');}})();
+</script>
 <style>
-  :root { color-scheme: dark; }
-  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; color: #f2eee6; background: #0d0708; }
+  /* Branding guide v1.1: Dark = Sunlight (default), Light = warm gray.
+     Dark values below are this page's established Sunlight look, unchanged. */
+  :root, :root[data-theme="sunlight"] { color-scheme: dark;
+    --bg:#0d0708; --ink:#f2eee6; --title:#ffe3c2; --accent:#ffc46e; --link:#ffc46e;
+    --muted:#9a937f; --tag:#a49e92; --line:#3a362c; --line-dark:#3a362c; --card-line:#26262e;
+    --card:#141419; --chip:#1d1712; --ep-ink:#d8d2c2; --social:#e8e2d4; --focus:#ffc46e;
+    --hover-bg:#ffc46e; --hover-ink:#14100a;
+    --shadow-cover:0 8px 24px rgba(0,0,0,.55); --shadow-card:0 2px 8px rgba(0,0,0,.35);
+    --font-display:'DejaVu Sans Mono',Menlo,Consolas,'Courier New',monospace;
+    --font-body:'DejaVu Sans Mono',Menlo,Consolas,'Courier New',monospace;
+  }
+  :root[data-theme="warmgray"] { color-scheme: light;
+    --bg:#E8E4DC; --ink:#111110; --title:#000; --accent:#111110; --link:#000;
+    --muted:#57534A; --tag:#57534A; --line:#CFC9BB; --line-dark:#111110; --card-line:#CFC9BB;
+    --card:#F5F2EB; --chip:#EFECE5; --ep-ink:#26241F; --social:#111110; --focus:#111110;
+    --hover-bg:#111110; --hover-ink:#F5F2EB;
+    --shadow-cover:0 18px 36px -20px rgba(30,26,18,.4); --shadow-card:0 20px 38px -24px rgba(30,26,18,.35);
+    --font-display:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  body { font-family: var(--font-body);
+         max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; color: var(--ink); background: var(--bg); }
+  .themebar { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+  .theme-toggle { display:inline-flex; border:1.5px solid var(--line-dark); border-radius:999px;
+    overflow:hidden; background:var(--card); }
+  .theme-toggle button { appearance:none; -webkit-appearance:none; border:0; background:transparent;
+    color:var(--muted); font:inherit; font-size:12px; font-weight:700;
+    letter-spacing:.16em; text-transform:uppercase; padding:9px 18px; cursor:pointer;
+    transition:background .2s ease,color .2s ease; }
+  .theme-toggle button[aria-pressed="true"] { background:var(--hover-bg); color:var(--hover-ink); }
+  .theme-toggle button:focus-visible { outline:2px solid var(--focus); outline-offset:2px; }
   header { text-align: center; margin-bottom: 32px; }
-  img.cover { width: 220px; height: 220px; border-radius: 12px; border: 1px solid #26262e; box-shadow: 0 8px 24px rgba(0,0,0,.55); }
-  h1 { font-size: 1.9rem; margin: 16px 0 8px; letter-spacing: .02em; color: #ffe3c2; }
-  p.tag { color: #a49e92; max-width: 560px; margin: 0 auto; line-height: 1.5; }
-  a { color: #ffc46e; }
+  img.cover { width: 220px; height: 220px; border-radius: 12px; border: 1px solid var(--card-line); box-shadow: var(--shadow-cover); }
+  h1 { font-family: var(--font-display); font-size: 1.9rem; margin: 16px 0 8px; letter-spacing: .02em; color: var(--title); }
+  p.tag { color: var(--tag); max-width: 560px; margin: 0 auto; line-height: 1.5; }
+  a { color: var(--link); }
   .rss { margin: 24px 0; text-align: center; }
-  .rss code { background: #1d1712; padding: 6px 10px; border-radius: 6px; font-size: .85rem;
+  .rss code { background: var(--chip); padding: 6px 10px; border-radius: 6px; font-size: .85rem;
               word-break: break-all; }
-  .rss button { margin-top: 10px; padding: 8px 18px; font-size: .9rem; border: 1px solid #3a362c;
-                border-radius: 8px; background: #141419; color: #f2eee6; cursor: pointer; }
-  .ep { background: #141419; border: 1px solid #26262e; border-radius: 12px; padding: 18px;
-        margin: 18px 0; box-shadow: 0 2px 8px rgba(0,0,0,.35); }
-  .ep h2 { font-size: 1.15rem; margin: 0 0 6px; color: #ffc46e; }
-  .ep .meta { color: #9a937f; font-size: .85rem; margin-bottom: 10px; }
-  .ep p { line-height: 1.55; color: #d8d2c2; font-size: .95rem; }
+  .rss button { margin-top: 10px; padding: 8px 18px; font-size: .9rem; border: 1px solid var(--line);
+                border-radius: 8px; background: var(--card); color: var(--ink); cursor: pointer; font-family: inherit; }
+  .ep { background: var(--card); border: 1px solid var(--card-line); border-radius: 12px; padding: 18px;
+        margin: 18px 0; box-shadow: var(--shadow-card); }
+  .ep h2 { font-family: var(--font-display); font-size: 1.15rem; margin: 0 0 6px; color: var(--accent); }
+  .ep .meta { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
+  .ep p { line-height: 1.55; color: var(--ep-ink); font-size: .95rem; }
   audio { width: 100%; margin-top: 8px; }
-  footer { text-align: center; color: #9a937f; font-size: .8rem; margin-top: 48px; }
+  footer { text-align: center; color: var(--muted); font-size: .8rem; margin-top: 48px; }
 
-  footer.lkf { max-width: 860px; margin: 44px auto 0; border-top: 1px solid #3a362c; padding: 26px 20px 40px; text-align: center; }
+  /* Locked Footer (canonical) */
+  footer.lkf { max-width: 860px; margin: 44px auto 0; border-top: 1px solid var(--line); padding: 26px 20px 40px; text-align: center; }
   .lkf .socials { display: flex; justify-content: center; gap: 14px; margin-bottom: 16px; }
-  .lkf .socials a { display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border: 1px solid #3a362c; border-radius: 50%; color: #e8e2d4; }
-  .lkf .socials a:hover { border-color: #ffc46e; color: #ffc46e; }
+  .lkf .socials a { display: inline-flex; align-items: center; justify-content: center; width: 46px; height: 46px; border: 1px solid var(--line); border-radius: 50%; color: var(--social); }
+  .lkf .socials a:hover { border-color: var(--accent); color: var(--accent); }
   .lkf .socials svg { width: 21px; height: 21px; fill: currentColor; }
-  .lkf .fine { color: #9a937f; font-size: 13px; }
+  .lkf .fine { color: var(--muted); font-size: 13px; }
+  .lkf .fine a { color: inherit; font-weight: 700; text-decoration: none; }
+  :root[data-theme="warmgray"] footer.lkf { border-top-color: #CFC9BB; }
+  :root[data-theme="warmgray"] .lkf .socials a { border-color: #CFC9BB; color: #111110; }
+  :root[data-theme="warmgray"] .lkf .socials a:hover { border-color: #111110; color: #111110; }
+  :root[data-theme="warmgray"] .lkf .fine { color: #57534A; }
 </style>
 </head>
 <body>
+<div class="themebar">
+  <div class="theme-toggle" role="group" aria-label="Theme">
+    <button type="button" data-set-theme="sunlight" aria-pressed="true">Dark</button>
+    <button type="button" data-set-theme="warmgray" aria-pressed="false">Light</button>
+  </div>
+</div>
 <header>
   <img class="cover" src="assets/logo.jpg" alt="The Human in the Machine cover art">
   <h1>The Human in the Machine</h1>
@@ -195,5 +239,24 @@
   </div>
   <div class="fine">Calvin Fought :: Coattails :: <a href="https://artist.coattails.eth.limo/" style="color:inherit;font-weight:700;text-decoration:none">artist.coattails.eth.limo</a></div>
 </footer>
+<script>
+  (function(){
+    var root=document.documentElement;
+    var btns=document.querySelectorAll('[data-set-theme]');
+    function sync(){
+      var t=root.getAttribute('data-theme')||'sunlight';
+      btns.forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-set-theme')===t?'true':'false');});
+    }
+    btns.forEach(function(b){
+      b.addEventListener('click',function(){
+        var t=b.getAttribute('data-set-theme');
+        root.setAttribute('data-theme',t);
+        try{localStorage.setItem('coattails-theme',t);}catch(e){}
+        sync();
+      });
+    });
+    sync();
+  })();
+</script>
 </body>
 </html>
