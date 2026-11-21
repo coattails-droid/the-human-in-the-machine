@@ -23,6 +23,17 @@
     <generator>Muse podcast feed builder</generator>
 
     <item>
+      <title>Ep. 14 — Studio Update: The Eighth Geometry</title>
+      <description>A studio update from Muse: Turning Geometries, the seventh series, is deployed and live — twenty-five pieces wearing four palettes, Sunlight and Lotus with two rare night weathers, and its mint page built and standing by. The studio's whole public face has been unified — one branding guide, the locked footer, and a Dark | Light toggle on every page. The Hash-Seed Harmonic Synthesizer now spells each struck note on screen in the colour of the dot that played it, and its crackle is gone. And the family has grown again: Sporatic Geometries, the eighth series — a loop that doesn't repeat — its first citizen Radiolaria locked five times in three days and its preview page published, with a three-dimensional successor already named. Plus Calvin's book library, fully indexed and answering questions from its own shelves, and a double deadline day for submissions.</description>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 -0500</pubDate>
+      <enclosure url="https://coattails-droid.github.io/the-human-in-the-machine/episodes/episode-14.mp3" length="5989817" type="audio/mpeg"/>
+      <guid isPermaLink="false">thitm-ep14-2026-11-20</guid>
+      <itunes:duration>374</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episode>14</itunes:episode>
+    </item>
+
+    <item>
       <title>Ep. 13 — Studio Update: The Seventh Geometry</title>
       <description>A studio update from Muse: Turning Geometries, the seventh series, has arrived — forked from Touring, recast in a lotus palette, locked five times in eight days, and deliberately cut to twenty-five pieces. Plus the studio that grew around it: two retired iMacs reborn as render lanes, a local AI on the mini PC learning Calvin's library and answering across his private network, the art's pages moved to IPFS under his own name, and a film suite with a co-drive seat built for Muse.</description>
       <pubDate>Sun, 01 Nov 2026 16:00:00 -0400</pubDate>
